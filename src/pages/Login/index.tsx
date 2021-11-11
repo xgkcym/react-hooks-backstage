@@ -92,5 +92,5 @@ function Index(props:any) {
     )
 }
 
-const Login = Index
+const Login = React.memo(Index) 
 export default Login
