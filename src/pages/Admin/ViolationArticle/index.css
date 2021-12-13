@@ -1,0 +1,7 @@
+.copyreader{
+  align-self:center;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}

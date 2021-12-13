@@ -1,7 +1,6 @@
 .home{
     /* height:750px; */
     flex: 1;
-    background-color: #c55;
 }
 .home .layout{
     height: 100%;
@@ -23,4 +22,15 @@
     background-color:rgb(105, 115, 128);
     line-height: 50px;
     text-align: center;
+}
+.loginout{
+    color: #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
 }

@@ -1,0 +1,43 @@
+.modifyUserBox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.modifyUserBox .modifyUserForm{
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+.modifyUserBox .avatarBox{
+    position:relative;
+    width: 80px;
+    height: 80px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modifyUserBox .avatarBox .avatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.modifyUserBox .avatarBox input{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.telphoneBox{
+    position: relative;
+}
+.telphoneBox div{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-75%);
+    color: #666;
+    font-size: 13px;
+}

@@ -1,0 +1,18 @@
+.copyreader{
+  align-self:center;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.avatarBox{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatarBox img{
+  width: 80%;
+  height: 100%;
+}
